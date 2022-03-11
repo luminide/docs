@@ -1,0 +1,16 @@
+img {
+  border: 1px solid lightgray;
+}
+
+.wy-side-nav-search, .wy-nav-top {
+    background-color: #ff9a1c;
+}
+
+.wy-nav-side {
+    background-color: #000000;
+}
+
+span.caption-text {
+  color: #ff9a1c;
+}
+
