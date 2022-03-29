@@ -75,7 +75,7 @@ Lastly, import your data to the Compute Server, which is where the data will be 
 
 Menu: `Luminide > Import Data to Compute Server`
 
-Navigate to the `Google Cloud Storage` tab, which is where the Plant Pathology dataset is, and copy/paste the following dataset bucket into the text box:  {{< copy_text "gs://luminide-example-plant-pathology" >}}
+Navigate to the `Google Cloud Storage` tab, which is where the Plant Pathology dataset is, and copy/paste the following dataset bucket into the text box: `gs://luminide-example-plant-pathology`.
 
 Then click the `Import Data to Compute Server` button and the data will start downloading. When it's finished, you will get a "Download Succeeded" message.
 
