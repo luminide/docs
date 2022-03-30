@@ -19,18 +19,28 @@ Luminide's distributed architecture consists of two main components, the *IDE Se
 ```
 
 - **IDE Server**: This is what controls everything, e.g., where you log in from your **browser**, download and edit your code, experiments are tracked/monitored/visualized,  hyperparameter tuning is managed, and results are stored.  This is also where commands that run on the Compute Server are launched.
-- **Compute Server**: This is where experiments are executed.  Before each run, code from the IDE server is automatically copied over, and after each run the results are automatically copied back.  Datasets are downloaded and stored on persistent **Cloud Storage**, which is co-located with the Compute Server for high performance. 
+- **Compute Server**: This is where experiments are executed.  Before each run, code from the IDE server is automatically copied over, and after each run the results are automatically copied back.  Datasets are downloaded and stored on persistent **Cloud Storage**, which is co-located with the Compute Server for high performance.
+
+## Luminide IDE
+
+The Luminide IDE is a customized version of the Jupyter IDE hosted in the cloud.  It includes everything that makes the Jupyter IDE so popular among data scientists, e.g. notebooks, code editing, file browsers.  But also includes everything you need for model development, e.g. connect to cloud GPUs, run and track experiments, hyperparmater tuning.  And since it's all fully integrated, everything is just a click away.
+
+```{image} ../images/ide-screenshot.png
+:width: 650
+```
+
+In addition to building on top of Jupyter's IDE, Luminide leverages other Project Jupyter open-source software such as JupyterLab and JupyterHub.  We'd like to give the [Jupyter Project and Community](https://jupyter.org/about.html) a special thanks for building such great products.
 
 ## Luminide File Structure
 
-At a minimum, you need some code that trains a model and a script that invokes this code. For an example, see <kbd>train.py</kbd> and <kbd>full.sh</kbd> in the [generic-example repo](https://github.com/luminide/example-generic). The directory structure is expected to be:
+To train a model, at a minimum you'll need some code that trains the model and a script that invokes this code. For an example, see <kbd>train.py</kbd> and <kbd>full.sh</kbd> in the [generic-example repo](https://github.com/luminide/example-generic). You'll also need the input dataset.  The directory structure is expected to be:
 
 ```
 IDE Server                                      Compute Server                            
 
 project                                         project                            
 ├── code (source code)                          ├── [source code copy]
-                                                ├── input (dataset)                
+├                                               ├── input (dataset)                
 └── output [working directory copy]             └── output (working directory)     
 ```
 
@@ -64,6 +74,3 @@ Menu: `Luminide > Documentation`
 :width: 300
 ```
 
-## Jupyter IDE
-
-Luminide leverages Project Jupyter open-source software such as JupyterLab and JupyterHub for their IDE, notebook, and multi-user support.  We'd like to give the [Jupyter Project and Community](https://jupyter.org/about.html) a special thanks for building such amazing products.

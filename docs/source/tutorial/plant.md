@@ -58,11 +58,11 @@ or choose `Use Template`  when a new project is created:
 
 Then select the PyTorch Image Classification template.
 
-```{image} ../images/feb-template-use.png
+```{image} ../images/image-classification.png
 :width: 300
 ```
 
-There are a number of parameters you can modify to generate code specific to your problem.  For this tutorial, you can use the default parameters.
+There are a number of parameters you can modify to generate code specific to your problem.  For this tutorial, you can use the default parameters and click on `Create Code`.
 
 The code is placed in the code directory on the IDE Server, and can be browsed using the [Code File Browser](code-file-browser) in the left-hand sidebar.
 
@@ -91,11 +91,11 @@ For more information on importing data, e.g. importing code from from Kaggle or 
 
 ## Run Experiment
 
-Now you're ready to run an experiment:
+Now you're ready to run an experiment.  For this tutorial, we will train a model to completion.  For other types of experiments, including hyperparameter tuning and running custom scripts, see [Run Experiment](docs-run-experiment).
 
 Menu: `Luminide > Run Experiment`
 
-Running an experiment copies the shell script in <kbd>code/full.sh</kbd> to the Compute Server and executes it.  Enter an optional experiment description and then click `Start Full Training`.
+Training a model copies the shell script in <kbd>code/full.sh</kbd> to the Compute Server and executes it.  Enter an optional experiment description and then click `Start Full Training`.
 
 ```{image} ../images/feb-train.png
 :width: 600
@@ -103,11 +103,11 @@ Running an experiment copies the shell script in <kbd>code/full.sh</kbd> to the 
 
 The output from executing the <kbd>full.sh</kbd> shell script on the Compute Server is displayed in an embedded terminal.
 
-```{image} ../images/feb-training-completed.png
+```{image} ../images/run-experiment-completed.png
 :width: 700
 ```
 
-Once it's done, you will see a <kbd>Experiment Completed</kbd> message. The experiment output is saved and can be accessed via the Code File Browser or with [Experiment Tracking](experiment-tracking).
+Once it's done, you will see an <kbd>Experiment Completed</kbd> message. The experiment output is saved and can be accessed via the Code File Browser or with [Experiment Tracking](experiment-tracking).
 
 Congratulations! You've just trained your first neural-network using Luminide.
 
