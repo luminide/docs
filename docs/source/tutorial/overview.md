@@ -14,8 +14,8 @@ Luminide makes it *easier* to build *better AI models*:
 
 Luminide's distributed architecture consists of two main components, the *IDE Server* and the *Compute Server*.
 
-```{image} ../images/tutorial-overview-diagram.png
-:width: 375
+```{image} ../images/new-tutorial-overview-diagram.png
+:width: 650
 ```
 
 - **IDE Server**: This is what controls everything, e.g., where you log in, download and edit your code, experiments are tracked,  and results are stored.  This is also where commands that run on the Compute Server are launched.
