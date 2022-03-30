@@ -18,8 +18,8 @@ Luminide's distributed architecture consists of two main components, the *IDE Se
 :width: 650
 ```
 
-- **IDE Server**: This is what controls everything, e.g., where you log in, download and edit your code, experiments are tracked,  and results are stored.  This is also where commands that run on the Compute Server are launched.
-- **Compute Server**: This is where experiments are executed.  Before each run, code from the IDE server is automatically copied over, and after each run the results are automatically copied back.  This is also where datasets are downloaded and stored.
+- **IDE Server**: This is what controls everything, e.g., where you log in from your **browser**, download and edit your code, experiments are tracked/monitored/visualized,  hyperparameter tuning is managed, and results are stored.  This is also where commands that run on the Compute Server are launched.
+- **Compute Server**: This is where experiments are executed.  Before each run, code from the IDE server is automatically copied over, and after each run the results are automatically copied back.  Datasets are downloaded and stored on persistent **Cloud Storage**, which is co-located with the Compute Server for high performance. 
 
 ## Luminide File Structure
 
