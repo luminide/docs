@@ -5,17 +5,17 @@ weight: 220
 
 # Early Ranking
 
-Luminide includes an optimization, called Early Ranking, which uses predictive modeling to determine the relative outcome of a training run after only a few epochs. This can be used for rapid prototyping, e.g. experimenting with different model layers or data transformations to determine which are effective. It can also be used for hyperparameter tuning, which allows a larger search space to be explored, leading to a higher accuracy model.
+Luminide includes an optimization, called Early Ranking, which uses predictive modeling to determine the relative outcome of a training run after only a few epochs. This can be used for rapid prototyping, e.g. experimenting with different model layers or data transformations, as well as for more effective hyperparameter tuning, since exploring larger search spaces can lead to higher accuracy models.
 
 ## Experimental Phase
 
-Early ranking is still in the experimental phase.  In many cases it has achieved the same results using 5 to 10 times fewer epochs, but not in every case. We encourage you to try it out and let us know how well it works for you. One thing you can do is as follows:
+Early ranking is still in the experimental phase.  In many cases it has achieved the same results using 5 to 10 times fewer epochs, but in some cases the accuracy or speedup falls short of this goal. We encourage you to try it out and let us know how well it works for you. One thing you can do is the following:
 
 1. Train your neural net (i.e. full training).
 2. Perform hyperparameter tuning using Early Ranking (i.e. fast sweep).
-3. Take the best result from your hyperparameter sweep and train your model again (i.e. full training). You can do this by logging into the IDE server and running something like this: `ubuntu@ide-server:~/plant-pathology$ cp output/exp47/config-tuned.yaml code/config.yaml`
+3. Take the best result from your hyperparameter sweep and train your model again (i.e. full training). You can use the results from a sweep for your next training run by this by logging into the IDE server and running something like this: `ubuntu@ide-server:~/plant-pathology$ cp output/exp47/config-tuned.yaml code/config.yaml`
 
-Ideally this will produce in a higher accuracy model in a fraction of the time. Optionally, repeat steps 2 and 3 a few times with different values of epochs in the `fast.sh` script.  Sharing this accuracy/speedup curve with us would help us characterize and improve our Early Ranking technology (send email to `support@luminide.com`).
+Ideally this will produce a higher accuracy model in a fraction of the time. Optionally, repeat steps 2 and 3 a few times with different values of epochs in the `fast.sh` script, and create an accuracy/speedup curve.   Sharing your results will help us characterize and improve our Early Ranking technology (send email to `support@luminide.com`).
 
 ## Fast Training
 
