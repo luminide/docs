@@ -41,6 +41,6 @@ In addition to using [Code Templates](docs-code) to generate code, you can also 
 
 Menu: `Luminide > Import Code`
 
-When prompted, input the URL of the git repo.  For example, image classification code for the Plant Pathology example we used in the Tutorial is available on the Luminide github account.  Instead of using a template to generate code, you could have copied/pasted the following URL into the Import Code tab: {{< copy_text "https://github.com/luminide/example-generic" >}}
+When prompted, input the URL of the git repo.  For example, image classification code for the Plant Pathology example we used in the Tutorial is available on the Luminide github account.  Instead of using a template to generate code, you could have copied/pasted the following URL into the Import Code tab: `https://github.com/luminide/example-generic`.
 
 Likewise, the code is imported into the code directory, and can be browsed using the Code File Browser in the left-hand sidebar.
