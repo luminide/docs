@@ -8,7 +8,7 @@ weight: 120
 
 ## Code Templates
 
-Luminide contains templates that generate some intial code to get started.  This code is placed in the the `code/` directory, and includes everything needed to run your experiment -- the model, the hyperparameters, and the shell script to launch the experiment.
+Luminide contains templates that generate some initial code to get started.  This code is placed in the the `code/` directory, and includes everything needed to run your experiment -- the model, the hyperparameters, and the shell script to launch the experiment.
 
 Menu: `Luminide > Code Templates`
 

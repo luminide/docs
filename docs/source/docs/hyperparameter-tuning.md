@@ -107,7 +107,7 @@ When a sweep is completed, the following files are generated in the output direc
 
 - <kbd>config-tuned.yaml</kbd>: This file contains the hyperparameter values in the same format as your config.yaml, updated after each "best trial".  This makes it easy to reuse the best results.
 - <kbd>sweep_results_raw.csv</kbd>: This spreadsheet contains all of the hyperparameter values used for each trial, which can give insights into the tuning process.
-- <kbd>sweep_results_chart.png</kbd>: This graph displays the valadation loss for each trial, and tracks the "best trial".
+- <kbd>sweep_results_chart.png</kbd>: This graph displays the validation loss for each trial, and tracks the "best trial".
 
 ```{image} ../images/feb-full-sweep-graph.png
 :width: 450

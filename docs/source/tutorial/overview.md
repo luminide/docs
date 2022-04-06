@@ -23,7 +23,7 @@ Luminide's distributed architecture consists of two main components, the *IDE Se
 
 ## Luminide IDE
 
-The Luminide IDE is a customized version of the Jupyter IDE hosted in the cloud.  It includes everything that makes the Jupyter IDE so popular among data scientists, e.g. notebooks, code editing, file browsers.  But also includes everything you need for model development, e.g. connect to cloud GPUs, run and track experiments, hyperparmater tuning.  And since it's all fully integrated, everything is just a click away.
+The Luminide IDE is a customized version of the Jupyter IDE hosted in the cloud.  It includes everything that makes the Jupyter IDE so popular among data scientists, e.g. notebooks, code editing, file browsers.  But also includes everything you need for model development, e.g. connect to cloud GPUs, run and track experiments, hyperparameter tuning.  And since it's all fully integrated, everything is just a click away.
 
 ```{image} ../images/ide-screenshot.png
 :width: 650

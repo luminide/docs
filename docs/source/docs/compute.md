@@ -19,7 +19,7 @@ Menu: `Luminide > Manage Compute Server`
 
 ## Attach to a Compute Server
 
-Choose which CSP and system you want to use based on their descriptions and hourly rates.  Some CSPs offer "spot compute" for machines that are not in use.  This option is significantly less expensive, but runs the risk of having the machine preempted at any point.  Spot compute can be a great choice when there is a large pool of unused mahcines.  It's also useful for longer running hyperparameter sweeps, since a preempted sweep can be resumed without losing any results.
+Choose which CSP and system you want to use based on their descriptions and hourly rates.  Some CSPs offer "spot compute" for machines that are not in use.  This option is significantly less expensive, but runs the risk of having the machine preempted at any point.  Spot compute can be a great choice when there is a large pool of unused machines.  It's also useful for longer running hyperparameter sweeps, since a preempted sweep can be resumed without losing any results.
 
 Once you've selected your sytem, click `Attach Compute Server`.  This will connect with the CSP, provision a new server, and indicate once this process has completed by displaying a green checkmark (in both the Manage Compute Server tab as well as the bottom-left status bar).  Note -- this step could take several minutes depending on the Compute Server type.
 
