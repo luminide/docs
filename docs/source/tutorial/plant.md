@@ -30,7 +30,7 @@ For this tutorial, an inexpensive option like gcp-t4 will be sufficient, and sel
 :width: 600
 ```
 
-Note: The first time you select a Google compute server, you will need to select a volume size.  For this tutorial, use the default 50GB.
+Note: The first time you select a Google compute server, you will need to select a volume size.  For this tutorial, use the default 150GB.
 
 Then click `Attach Compute Server`.  This will connect with the CSP, provision a new server, and indicate once this process has completed by displaying a green checkmark (both in the Manage Compute Server tab as well as the bottom-left status bar):
 
