@@ -24,9 +24,9 @@ The first step in training a model is to attach a Compute Server.
 
 Menu: `Luminide > Manage Compute Server`
 
-Select a Compute Server type, e.g., gcp-t4:
+For this tutorial, an inexpensive option like gcp-t4 will be sufficient, and selecting `Spot compute` is usually a good choice since it costs significantly less.
 
-```{image} ../images/feb-compute-server.png
+```{image} ../images/apr-compute-server.png
 :width: 600
 ```
 

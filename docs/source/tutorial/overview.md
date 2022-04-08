@@ -74,3 +74,6 @@ Menu: `Luminide > Documentation`
 :width: 300
 ```
 
+## Tutorial
+
+Try out Luminide for yourself by doing our [Tutorial](plant-leaf-tutorial).
