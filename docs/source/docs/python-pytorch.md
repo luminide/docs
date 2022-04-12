@@ -1,9 +1,9 @@
 ---
-title: Python & Pytorch
+title: Python & PyTorch
 weight: 500
 ---
 
-# Python & Pytorch
+# Python & PyTorch
 
 ## Check Python Syntax
 
@@ -23,10 +23,12 @@ The PyTorch Profiler records the CPU side operations as well as the CUDA kernel 
 
 To use the PyTorch Profiler, update your code to call `torch.profiler.profile` and `prof.step` as [described here](https://pytorch.org/tutorials/intermediate/tensorboard_profiler_tutorial.html#use-profiler-to-record-execution-events).
 
-Then select the `Pytorch_Profiler` tab in TensorBoard:
+Then select the `PyTorch_Profiler` tab in TensorBoard:
 
 Menu: `Luminide > Experiment Visualization`
 
 ```{image} ../images/feb-pytorch-profiler.png
 :width: 500
 ```
+
+Note: A known bug in PyTorch 1.11 may cause a segfault (<kbd>signal 11</kbd>).  Workarounds include using PyTorch 1.09 or <kbd>setting torch.profiler.profile</kbd> parameter <kbd>with_stack=False</kbd>.  See [PyTorch bug report](https://github.com/pytorch/pytorch/issues/69443) for more details).
