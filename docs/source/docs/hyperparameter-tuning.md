@@ -63,6 +63,18 @@ parameters:
     q: 8
 ```
 
+## Fault Tolerance
+
+Luminide records a sweep's progress in the file <kbd>full-sweep.pkl</kbd>. Each time a trial sweep is completed, Luminide updates this file with the results of the trial, if the trial is the best so far, etc. This allows users to resume a sweep that was interrupted, e.g. from a less expensive spot compute server getting preempted. This feature also allows users increase the number of trials, even after a sweep has completed.
+
+Therefore, if a <kbd>full-sweep.pkl</kbd> file exists when starting a sweep, Luminide will prompt you to resume the previous sweep:
+
+```{image} ../images/resume-sweep.png
+:width: 550
+```
+
+The default is to resume. If you do want to start a new sweep, simply type <kbd>n</kbd>.
+
 ## Instrumenting Your Own Code
 
 In addition to using Luminide Templates, you can also perform hyperparameter tuning on code written from scratch or imported from an existing repo.  In this case, however, you will need to make minor modifications to your code.
