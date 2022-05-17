@@ -13,7 +13,7 @@ Read through the [fast.ai tutorials](https://docs.fast.ai/) to learn how to trai
 :width: 510
 ```
 
-To run fast.ai notebooks on Luminide, just follow the the instructions on this page.
+To run fast.ai notebooks on Luminide, just follow the instructions on this page.
 
 ## Sign up to Luminide
 
@@ -58,7 +58,7 @@ Before executing a notebook, you must first connect to cloud compute server:
 :width: 135
 ```
 
-Choose the compute server based on performance and price. Select `Spot compute` for additional savings. For example, a GCP A100 spot compute server will run an entire fast.ai notebook in around 5 minutes and cost about $0.10.
+Choose the compute server based on performance and price. Select `Spot compute` for additional savings. For example, a GCP A100 spot compute server will run the entire vision notebook in around 5 minutes and cost about $0.10 (some notebooks take significantly longer, so adjust your idle timeout setting accordingly).
 
 ```{image} ../images/fastai-attach-compute.png
 :width: 600
