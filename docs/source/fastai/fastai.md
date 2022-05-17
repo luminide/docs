@@ -5,7 +5,15 @@ weight: 100
 
 # Fast AI Tutorials
 
-Do the following steps...
+[Fast.ai](https://www.fast.ai) is a deep learning library which provides AI practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains.
+
+Read through the [fast.ai tutorials](https://docs.fast.ai/) to learn how to train your own models on your own datasets. Use the navigation sidebar to look through the fast.ai documentation.
+
+```{image} ../images/fastai-fastai.png
+:width: 510
+```
+
+To run fast.ai notebooks on Luminide, just follow the the instructions on this page.
 
 ## Sign up to Luminide
 
@@ -19,29 +27,27 @@ Visit the [Luminide website](https://www.luminide.com) to sign up and log in:
 :height: 150
 ```
 
-## Import fast.ai tutorials
+## Import fast.ai notebooks
 
 Once you log into Luminide, import the fast.ai tutorials:
 - `Create and Open` a new project
 - Initialize project code by choosing `Import`
-- Enter the URL of the [fastai git repository](https://github.com/fastai/fastai): `https://github.com/fastai/fastai.git`
+- Enter the URL of the [fast.ai git repository](https://github.com/fastai/fastai): `https://github.com/fastai/fastai.git`
 
 ```{image} ../images/fastai-new-project.png
 :height: 125
 ```
-
 ```{image} ../images/fastai-import-code.png
 :height: 125
 ```
-
 ```{image} ../images/fastai-import-code-2.png
-:width: 700
+:width: 510
 ```
 
-Once the repo finishes importing, use the file browser to navivate to the `/nbs` directory.  Here you will see a list of all of the fast.ai notebooks:
+Once the repo finishes importing, use the file browser to navigate to the `/nbs` directory.  Here you will see a list of all of the fast.ai notebooks:
 
 ```{image} ../images/fastai-import-code-3.png
-:width: 700
+:width: 300
 ```
 
 ## Connect to a cloud GPU
@@ -61,17 +67,13 @@ Choose the compute server based on performance and price. Select `Spot compute` 
 
 ## Run a fast.ai notebook
 
-Select the notebook you would like to run and `Run the selected cells` or `Re-run the whole notebook`.
+Select a notebook and `Run the selected cells` or `Re-run the whole notebook`.
 
 ```{image} ../images/fastai-tutorial-vision.png
 :width: 600
 ```
 
-```{image} ../images/fastai-restart-kernel.png
-:height: 110
-```
-
-## Summary of the fast.ai tutorials and notebooks
+## Tutorial and notebook summary
 
 The online fast.ai tutorials correspond to the following files in the fast.ai github repository:
 
