@@ -11,7 +11,7 @@ Luminide makes it easier to build better AI models.  To get started, we recommen
 
    tutorial/overview
    Tutorial <tutorial/plant.md>
-   community/discussions.md
+   tutorial/discussions.md
 
 .. toctree::
    :caption: Documentation
@@ -28,6 +28,12 @@ Luminide makes it easier to build better AI models.  To get started, we recommen
    docs/terminals
    docs/python-pytorch
    docs/configuration
+
+.. toctree::
+   :caption: Fast AI
+   :hidden:
+
+   fastai/fastai
 
 .. toctree::
    :caption: FAQ

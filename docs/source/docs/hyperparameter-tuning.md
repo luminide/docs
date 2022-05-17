@@ -70,7 +70,7 @@ Luminide records a sweep's progress in the file <kbd>full-sweep.pkl</kbd>. Each 
 Therefore, if a <kbd>full-sweep.pkl</kbd> file exists when starting a sweep, Luminide will prompt you to resume the previous sweep:
 
 ```{image} ../images/resume-sweep.png
-:width: 550
+:width: 500
 ```
 
 The default is to resume. If you do want to start a new sweep, simply type <kbd>n</kbd>.
@@ -121,6 +121,6 @@ When a sweep is completed, the following files are generated in the output direc
 - <kbd>sweep_results_raw.csv</kbd>: This spreadsheet contains all of the hyperparameter values used for each trial, which can give insights into the tuning process.
 - <kbd>sweep_results_chart.png</kbd>: This graph displays the validation loss for each trial, and tracks the "best trial".
 
-```{image} ../images/feb-full-sweep-graph.png
-:width: 450
+```{image} ../images/apr-full-sweep-graph.png
+:width: 550
 ```

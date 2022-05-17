@@ -32,7 +32,7 @@ Once you're ready, click `Start Full Training`.
 
 The output from executing the <kbd>full.sh</kbd> shell script on the Compute Server is displayed in an embedded terminal.
 
-```{image} ../images/feb-training-completed.png
+```{image} ../images/run-experiment-completed.png
 :width: 900
 ```
 
