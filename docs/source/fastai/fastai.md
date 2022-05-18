@@ -64,6 +64,8 @@ Choose the compute server based on performance and price. Select `Spot compute` 
 :width: 600
 ```
 
+Once you attach to a compute server, be sure to log in and upgrade to the lastest software:
+- Menu: `Luminide > Compute Server Terminal` and run: `pip install -U fastai nbdev`
 
 ## Run a fast.ai notebook
 
