@@ -6,7 +6,7 @@ weight: -100
 (plant-leaf-tutorial)=
 #  Plant Leaf Tutorial
 
-This tutorial shows how to train a neural network using Luminide. The example we will use is from the Kaggle Plant Pathology 2021 competition, in which the goal is to help farmers identify the category of foliar disease in apple trees.  You can find out more about this competition by visiting the [Kaggle website](https://www.kaggle.com/c/plant-pathology-2021-fgvc8).
+This tutorial shows how to train a neural network using Luminide. The example we will use is from the Kaggle Plant Pathology 2021 competition, in which the goal is to help farmers identify the category of foliar disease in apple trees.  You can find out more about this competition by visiting the <a href="https://www.kaggle.com/c/plant-pathology-2021-fgvc8" target="_blank">Kaggle website</a>.
 
 ```{image} ../images/feb-apple-leaf-good.png
 :width: 300

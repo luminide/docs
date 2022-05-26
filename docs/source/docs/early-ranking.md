@@ -43,5 +43,5 @@ epoch, iter, train_loss, val_loss
 …
 ```
 
-In this case, “iter” refers to the index of a minibatch within an epoch. The “val_loss” value may be left blank for many minibatches, but should be computed at regular intervals as shown in the <kbd>train_epoch()</kbd> function inside <kbd>[train.py](https://github.com/luminide/example-generic/blob/main/train.py)</kbd>.
+In this case, “iter” refers to the index of a minibatch within an epoch. The “val_loss” value may be left blank for many minibatches, but should be computed at regular intervals as shown in the <kbd>train_epoch()</kbd> function inside <kbd><a href="https://github.com/luminide/example-generic/blob/main/train.py" target="_blank">train.py</a></kbd>.
 

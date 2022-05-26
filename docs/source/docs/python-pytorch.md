@@ -21,7 +21,7 @@ Any syntax errors will be displayed. Error free files will report succeeded.
 
 The PyTorch Profiler records the CPU side operations as well as the CUDA kernel launches on the GPU side. The profiler can visualize this information in TensorBoard and provide analysis of the performance bottlenecks.
 
-To use the PyTorch Profiler, update your code to call `torch.profiler.profile` and `prof.step` as [described here](https://pytorch.org/tutorials/intermediate/tensorboard_profiler_tutorial.html#use-profiler-to-record-execution-events).
+To use the PyTorch Profiler, update your code to call `torch.profiler.profile` and `prof.step` as <a href="https://pytorch.org/tutorials/intermediate/tensorboard_profiler_tutorial.html#use-profiler-to-record-execution-events" target="_blank">described here</a>.
 
 Then select the `PyTorch_Profiler` tab in TensorBoard:
 
@@ -31,4 +31,4 @@ Menu: `Luminide > Experiment Visualization`
 :width: 500
 ```
 
-Note: A known bug in PyTorch 1.11 may cause a segfault (<kbd>signal 11</kbd>).  Workarounds include using PyTorch 1.09 or <kbd>setting torch.profiler.profile</kbd> parameter <kbd>with_stack=False</kbd>.  See [PyTorch bug report](https://github.com/pytorch/pytorch/issues/69443) for more details).
+Note: A known bug in PyTorch 1.11 may cause a segfault (<kbd>signal 11</kbd>).  Workarounds include using PyTorch 1.09 or <kbd>setting torch.profiler.profile</kbd> parameter <kbd>with_stack=False</kbd>.  See <a href="https://github.com/pytorch/pytorch/issues/69443" target="_blank">PyTorch bug report</a> for more details).

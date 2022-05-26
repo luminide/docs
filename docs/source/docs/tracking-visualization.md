@@ -36,7 +36,7 @@ And compare the inputs from two different experiments using the `Code Diff` tab:
 (experiment-visualization)=
 ## Experiment Visualization
 
-To enable monitoring with TensorBoard, follow the [TensorBoard documentation](https://pytorch.org/docs/stable/tensorboard.html). Add the following lines to the training code for minimal functionality:
+To enable monitoring with TensorBoard, follow the <a href="https://pytorch.org/docs/stable/tensorboard.html" target="_blank">TensorBoard documentation</a>. Add the following lines to the training code for minimal functionality:
 
 ```
 from torch.utils.tensorboard import SummaryWriter

@@ -80,7 +80,7 @@ The default is to resume. If you do want to start a new sweep, simply type <kbd>
 In addition to using Luminide Templates, you can also perform hyperparameter tuning on code written from scratch or imported from an existing repo.  In this case, however, you will need to make minor modifications to your code.
 
 To read the <kbd>config.yaml</kbd> file, use the <kbd>config.py</kbd> file that's provided in this
-this [example repo](https://github.com/luminide/example-generic) . Then add the following lines to your code to create a dictionary object initialized with its keys and values.
+this <a href="https://github.com/luminide/example-generic" target="_blank">example repo</a>. Then add the following lines to your code to create a dictionary object initialized with its keys and values.
 
 ```
 from config import Config

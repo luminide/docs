@@ -8,7 +8,7 @@ weight: 100
 ```{image} ../images/luminide-discussions.png
 ```
 
-Visit [Luminide Discussions](https://github.com/luminide/general/discussions) for:
+Visit <a href="https://github.com/luminide/general/discussions" target="_blank">Luminide Discussions</a> for:
 - Announcements
 - Bugs
 - Feature Requests

@@ -29,11 +29,11 @@ The Luminide IDE is a customized version of the Jupyter IDE hosted in the cloud.
 :width: 650
 ```
 
-In addition to building on top of Jupyter's IDE, Luminide leverages other Project Jupyter open-source software such as JupyterLab and JupyterHub.  We'd like to give the [Jupyter Project and Community](https://jupyter.org/about.html) a special thanks for building such great products.
+In addition to building on top of Jupyter's IDE, Luminide leverages other Project Jupyter open-source software such as JupyterLab and JupyterHub.  We'd like to give the <a href="https://jupyter.org/about.html" target="_blank">Jupyter Project and Community</a> a special thanks for building such great products.
 
 ## Luminide File Structure
 
-To train a model, at a minimum you'll need some code that trains the model and a script that invokes this code. For an example, see <kbd>train.py</kbd> and <kbd>full.sh</kbd> in the [generic-example repo](https://github.com/luminide/example-generic). You'll also need the input dataset.  The directory structure is expected to be:
+To train a model, at a minimum you'll need some code that trains the model and a script that invokes this code. For an example, see <kbd>train.py</kbd> and <kbd>full.sh</kbd> in the <a href="https://github.com/luminide/example-generic" target="_blank">generic-example repo</a>. You'll also need the input dataset.  The directory structure is expected to be:
 
 ```
 IDE Server                                      Compute Server                            

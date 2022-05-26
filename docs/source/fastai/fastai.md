@@ -5,9 +5,9 @@ weight: 100
 
 # Fast AI Tutorials
 
-[Fast.ai](https://www.fast.ai) is a deep learning library which provides AI practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains.
+<a href="https://www.fast.ai" target="_blank">Fast.ai</a> is a deep learning library which provides AI practitioners with high-level components that can quickly and easily provide state-of-the-art results in standard deep learning domains.
 
-Read through the [fast.ai tutorials](https://docs.fast.ai/) to learn how to train your own models on your own datasets. Use the navigation sidebar to look through the fast.ai documentation.
+Read through the <a href="https://docs.fast.ai/" target="_blank">fast.ai tutorials</a> to learn how to train your own models on your own datasets. Use the navigation sidebar to look through the fast.ai documentation.
 
 ```{image} ../images/fastai-fastai.png
 :width: 510
@@ -17,7 +17,7 @@ To run fast.ai notebooks on Luminide, just follow the instructions on this page.
 
 ## Sign up to Luminide
 
-Visit the [Luminide website](https://www.luminide.com) to sign up and log in:
+Visit the <a href="https://www.luminide.com" target="_blank">Luminide website</a> to sign up and log in:
 
 ```{image} ../images/fastai-signup.png
 :height: 150
@@ -32,7 +32,7 @@ Visit the [Luminide website](https://www.luminide.com) to sign up and log in:
 Once you log into Luminide, import the fast.ai tutorials:
 - `Create and Open` a new project
 - Initialize project code by choosing `Import`
-- Enter the URL of the [fast.ai git repository](https://github.com/fastai/fastai): `https://github.com/fastai/fastai.git`
+- Enter the URL of the <a href="https://github.com/fastai/fastai" target="_blank">fast.ai git repository</a>: `https://github.com/fastai/fastai.git`
 
 ```{image} ../images/fastai-new-project.png
 :height: 125
