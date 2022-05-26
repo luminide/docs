@@ -81,18 +81,18 @@ The online fast.ai tutorials correspond to the following files in the fast.ai gi
 
 | **Beginner**    |     |
 | :--- | ---: |
-| [Vision](https://docs.fast.ai/tutorial.vision.html)    | [23_tutorial.vision.ipynb](https://github.com/fastai/fastai/blob/master/nbs/23_tutorial.vision.ipynb)    |
-| [Text](https://docs.fast.ai/tutorial.text.html)    | [38_tutorial.text.ipynb](https://github.com/fastai/fastai/blob/master/nbs/38_tutorial.text.ipynb) |
-| [Tabular](https://docs.fast.ai/tutorial.tabular.html)    |  [44_tutorial.tabular.ipynb](https://github.com/fastai/fastai/blob/master/nbs/44_tutorial.tabular.ipynb) |
-| [Collab](https://docs.fast.ai/tutorial.collab.html)    | [46_tutorial.collab.ipynb](https://github.com/fastai/fastai/blob/master/nbs/46_tutorial.collab.ipynb) |
+| <a href="https://docs.fast.ai/tutorial.vision.html" target="_blank">Vision</a>         | <a href="https://github.com/fastai/fastai/blob/master/nbs/23_tutorial.vision.ipynb" target="_blank">23_tutorial.vision.ipynb</a>    |
+| <a href="https://docs.fast.ai/tutorial.text.html" target="_blank">Text</a>               | <a href="https://github.com/fastai/fastai/blob/master/nbs/38_tutorial.text.ipynb" target="_blank">38_tutorial.text.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.tabular.html" target="_blank">Tabular</a>      |  <a href="https://github.com/fastai/fastai/blob/master/nbs/44_tutorial.tabular.ipynb" target="_blank">44_tutorial.tabular.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.collab.html" target="_blank">Collab</a>         | <a href="https://github.com/fastai/fastai/blob/master/nbs/46_tutorial.collab.ipynb" target="_blank">46_tutorial.collab.ipynb</a> |
 | **Intermediate**    |     |
-| [DataBlock](https://docs.fast.ai/tutorial.datablock.html)    | [50_tutorial.datablock.ipynb](https://github.com/fastai/fastai/blob/master/nbs/50_tutorial.datablock.ipynb) |
-| [Imagenette](https://docs.fast.ai/tutorial.imagenette.html) | [22_tutorial.imagenette.ipynb](https://github.com/fastai/fastai/blob/master/nbs/22_tutorial.imagenette.ipynb) |
-| [Medical Imaging](https://docs.fast.ai/tutorial.medical_imaging.html) | [61_tutorial.medical_imaging.ipynb](https://github.com/fastai/fastai/blob/master/nbs/61_tutorial.medical_imaging.ipynb) |
-| [Pets](https://docs.fast.ai/tutorial.pets.html) | [10_tutorial.pets.ipynb](https://github.com/fastai/fastai/blob/master/nbs/10_tutorial.pets.ipynb) |
-| [Transformers](https://docs.fast.ai/tutorial.transformers.html) | [39_tutorial.transformers.ipynb](https://github.com/fastai/fastai/blob/master/nbs/39_tutorial.transformers.ipynb) |
-| [Wikitext](https://docs.fast.ai/tutorial.wikitext.html) | [35_tutorial.wikitext.ipynb](https://github.com/fastai/fastai/blob/master/nbs/35_tutorial.wikitext.ipynb) |
+| <a href="https://docs.fast.ai/tutorial.datablock.html" target="_blank">DataBlock</a>                       | <a href="https://github.com/fastai/fastai/blob/master/nbs/50_tutorial.datablock.ipynb" target="_blank">50_tutorial.datablock.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.imagenette.html" target="_blank">Imagenette</a>                   | <a href="https://github.com/fastai/fastai/blob/master/nbs/22_tutorial.imagenette.ipynb" target="_blank">22_tutorial.imagenette.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.medical_imaging.html" target="_blank">Medical Imaging</a>  | <a href="https://github.com/fastai/fastai/blob/master/nbs/61_tutorial.medical_imaging.ipynb" target="_blank">61_tutorial.medical_imaging.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.pets.html" target="_blank">Pets</a>                               | <a href="https://github.com/fastai/fastai/blob/master/nbs/10_tutorial.pets.ipynb" target="_blank">10_tutorial.pets.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.transformers.html" target="_blank">Transformers</a>   | <a href="https://github.com/fastai/fastai/blob/master/nbs/39_tutorial.transformers.ipynb" target="_blank">39_tutorial.transformers.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.wikitext.html" target="_blank">Wikitext</a>                   | <a href="https://github.com/fastai/fastai/blob/master/nbs/35_tutorial.wikitext.ipynb" target="_blank">35_tutorial.wikitext.ipynb</a> |
 | **Advanced**   |     |
-| [Albumentations](https://docs.fast.ai/tutorial.albumentations.html)   | [10b_tutorial.albumentations.ipynb](https://github.com/fastai/fastai/blob/master/nbs/10b_tutorial.albumentations.ipynb) |
-| [Siamese](https://docs.fast.ai/tutorial.siamese.html) | [24_tutorial.siamese.ipynb](https://github.com/fastai/fastai/blob/master/nbs/24_tutorial.siamese.ipynb) |
-| [Image Sequences/Video](https://docs.fast.ai/tutorial.image_sequence.html) | [24_tutorial.image_sequence.ipynb](https://github.com/fastai/fastai/blob/master/nbs/24_tutorial.image_sequence.ipynb) |
+| <a href="https://docs.fast.ai/tutorial.albumentations.html" target="_blank">Albumentations</a>               | <a href="https://github.com/fastai/fastai/blob/master/nbs/10b_tutorial.albumentations.ipynb" target="_blank">10b_tutorial.albumentations.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.siamese.html" target="_blank">Siamese</a>                                       | <a href="https://github.com/fastai/fastai/blob/master/nbs/24_tutorial.siamese.ipynb" target="_blank">24_tutorial.siamese.ipynb</a> |
+| <a href="https://docs.fast.ai/tutorial.image_sequence.html" target="_blank">Image Sequences/Video</a> | <a href="https://github.com/fastai/fastai/blob/master/nbs/24_tutorial.image_sequence.ipynb" target="_blank">24_tutorial.image_sequence.ipynb</a> |
